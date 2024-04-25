@@ -1,5 +1,5 @@
 TEMPLATE = lib
-TARGET = test_cppmodule
+TARGET = test_cppmoduleplugin
 
 QT += qml quick
 QT -= gui

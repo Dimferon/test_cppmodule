@@ -1,7 +1,7 @@
 import QtQuick 2.5
 import QtGraphicalEffects 1.0
 import Sailfish.Silica 1.0
-import test_module.chart 0.1
+import test_module.test_cppmodule 0.1
 
 BackgroundItem {
     id: lineDiagramItem

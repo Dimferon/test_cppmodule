@@ -6,12 +6,12 @@
 
 #include <qqml.h>
 
-void TestCppModule::registerTypes(const char *uri)
+void Test_cppModulePlugin::registerTypes(const char *uri)
 {
     // @uri test_module.test_cppmodule
 
-    qmlRegisterType<ValueDiagram>(uri, 1, 0, "ValueDiagram");
-    qmlRegisterType<LegendDiagram>(uri, 1, 0, "LegendDiagram");
-    qmlRegisterType<LineDiagramModel>(uri, 1, 0, "LineDiagramModel");
+    qmlRegisterType<ValueDiagram>(uri, 0,1, "ValueDiagram");
+    qmlRegisterType<LegendDiagram>(uri, 0, 1, "LegendDiagram");
+    qmlRegisterType<LineDiagramModel>(uri, 0, 1, "LineDiagramModel");
 }
 

@@ -3,7 +3,7 @@
 
 #include <QQmlExtensionPlugin>
 
-class TestCppModule : public QQmlExtensionPlugin
+class Test_cppModulePlugin : public QQmlExtensionPlugin
 {
     Q_OBJECT
     Q_PLUGIN_METADATA(IID QQmlExtensionInterface_iid)
