@@ -1,4 +1,4 @@
-Name:       test_module
+Name:       test_cppmodule
 
 Summary:    Пример подключаемого плагина с C++ кодом
 Version:    1.0.0
@@ -30,7 +30,7 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root,-)
 %license LICENSE.BSD
-%{_libdir}/qt5/qml/test_module/chart/*.so
-%{_libdir}/qt5/qml/test_module/chart/*.qml
-%{_libdir}/qt5/qml/test_module/chart/plugins.qmltypes
-%{_libdir}/qt5/qml/test_module/chart/qmldir
+%{_libdir}/qt5/qml/test_module/test_cppmodule/*.so
+%{_libdir}/qt5/qml/test_module/test_cppmodule/*.qml
+%{_libdir}/qt5/qml/test_module/test_cppmodule/plugins.qmltypes
+%{_libdir}/qt5/qml/test_module/test_cppmodule/qmldir

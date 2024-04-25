@@ -1,6 +1,6 @@
-module test_module.chart
+module test_module.test_cppmodule
 
 LineDiagram 1.0 LineDiagram.qml
 LineDiagramItem 1.0 LineDiagramItem.qml
 
-plugin chartplugin
+plugin test_cppmodule
