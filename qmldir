@@ -1,0 +1,6 @@
+module test_module.chart
+
+LineDiagram 1.0 LineDiagram.qml
+LineDiagramItem 1.0 LineDiagramItem.qml
+
+plugin chartplugin
