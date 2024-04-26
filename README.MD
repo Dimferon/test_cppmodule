@@ -7,3 +7,4 @@
 - в файлах где будет идти подключение плагина -> 'import test_module.test_cppmodule *0.1*'
 
 Пример подключения плагина к проекту https://github.com/Dimferon/AuroraSdkModuleExample
+Документация по созданию моделей в Qt: https://doc.qt.io/qt-5/qtqml-modules-qmldir.html#writing-a-qmltypes-file
