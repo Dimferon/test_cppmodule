@@ -8,4 +8,4 @@
 
 Пример подключения плагина к проекту https://github.com/Dimferon/AuroraSdkModuleExample
 
-Документация по созданию моделей в Qt: https://doc.qt.io/qt-5/qtqml-modules-qmldir.html#writing-a-qmltypes-file
+Документация по созданию моделей в Qt: https://doc.qt.io/qt-5/qtqml-modules-qmldir.html
